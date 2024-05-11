@@ -14,10 +14,10 @@ export const About = () => {
               style={{backgroundImage:"linear-gradient(#3c8ce7, #00eaff)"}}
             ></div>
         </div>
-        <div className="flex flex-col lg:flex-row-reverse md:flex-row-reverse w-3/4 justify-between items-center p-8 rounded-lg" style={{backgroundColor:theme=="dark"?"#1b1c1e":"#e2f2ff", color:theme=="dark"?"white":"black"}}>
+        <div className="flex flex-col lg:flex-row-reverse md:flex-row-reverse w-3/4 justify-between items-center p-8 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" style={{backgroundColor:theme=="dark"?"#1b1c1e":"#e2f2ff", color:theme=="dark"?"white":"black"}}>
           
-            <div className="flex justify-center items-center bg-white p-4 rounded-lg">
-              <img className="w-96 h-80 rounded-10 transition duration-300 object-cover" src="https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=640&q=75" alt="Aimg"/>
+            <div className="flex justify-center items-center bg-white p-4 rounded-lg ">
+              <img className="w-96 h-80 rounded-lg transition duration-300 object-cover transition ease-in-out delay-150 hover:scale-110 duration-300" src="https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=640&q=75" alt="Aimg"/>
             </div>
          
           <div className="flex flex-col items-start justify-center">
