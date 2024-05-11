@@ -1,3 +1,7 @@
+/* In your main CSS file or component */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
