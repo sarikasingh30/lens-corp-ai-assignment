@@ -11,7 +11,7 @@ export const Footer = () => {
         className="flex items-center justify-center py-16"
         style={{ backgroundColor: theme == "dark" ? "black" : "white" }}
       >
-        <div className="w-3/4 lg:flex md:flex sm:flex-col items-start justify-between">
+        <div className="w-3/4 flex flex-col items-center lg:flex-row md:flex-row lg:items-start md:items-start justify-between">
           <div className="flex flex-col items-center justify-center mt-3">
             <img
               src={
