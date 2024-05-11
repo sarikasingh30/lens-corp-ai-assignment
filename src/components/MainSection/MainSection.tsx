@@ -1,14 +1,14 @@
 "use client";
 import { MyContext } from "../../context/Store";
 import React, { useContext } from "react";
-
+import Image from "next/image";
 export const MainSection = () => {
   const context = useContext(MyContext);
-  const { theme, toggleTheme } = context;
+  const { theme} = context;
   return (
     <React.Fragment>
       {theme == "dark" ? (
-        <div className="w-full h-screen overflow-hidden grid place-content-center">
+        <div className="w-full h-screen overflow-hidden grid place-content-center mb-5">
           <video
             autoPlay
             loop
@@ -31,8 +31,8 @@ export const MainSection = () => {
           </div>
         </div>
       ) : (
-        <div className="w-full h-screen overflow-hidden grid place-content-center">
-            <img className="absolute top-0 left-0 w-full h-screen z-10 object-cover" src="https://lenscorp.ai/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdetwrhe0k%2Fimage%2Fupload%2Fv1691730929%2Flenscorp-website%2FDesktop_-_23_u3ypg0.jpg&w=128&q=75" />
+        <div className="w-full h-screen overflow-hidden grid place-content-center mb-5">
+            <img className="absolute top-0 left-0 w-full h-screen z-10 object-cover" src="https://lenscorp.ai/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdetwrhe0k%2Fimage%2Fupload%2Fv1691730929%2Flenscorp-website%2FDesktop_-_23_u3ypg0.jpg&w=128&q=75" alt="mImg"/>
             <div className="w-3/4 flex flex-col items-start justify-center z-20 ml-7">
             <h1 className="text-5xl text-black mb-5 text-start z-20 font-bold ">We are at the forefront of AI</h1>
             <p className="hidden lg:block mt-5 mb-5 text-start text-lg font-light text-black z-20">From Conserving Wildlife to Automatically <br/>Generating Caricatures

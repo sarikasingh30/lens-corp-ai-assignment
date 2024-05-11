@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, Fragment, useContext } from "react";
+import Image from "next/image";
 import "../../app/globals.css";
 import { MyContext} from "../../context/Store";
 import { Dialog, Transition } from "@headlessui/react";
@@ -109,12 +110,11 @@ export const Navbar = () => {
                 <div className="flex">
                   <div className="flex ">
                     <img
-                      className="w-18 h-16 font-bold text-black  px-2 py-1 rounded"
                       src={
                         theme == "dark"
                           ? "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewLogo.9985891c.png&w=256&q=75"
                           : "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"
-                      }
+                      } alt="image" className="w-18 h-16 font-bold text-black  px-2 py-1 rounded"
                     />
                   </div>
                 </div>
