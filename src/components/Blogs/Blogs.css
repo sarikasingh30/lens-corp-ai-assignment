@@ -1,0 +1,17 @@
+@keyframes scrollUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.sam{
+  grid-column: span 2;
+  grid-row: 2
+}
+
+.anime{animation: scrollUp 0.3s ease forwards}
