@@ -2,25 +2,25 @@ import React from "react";
 
 export const OurVision = () => {
   return (
-    <div className="NewVision_Container__lfemW">
-      <div className="NewVision_headingCont__TN1qI">
-        <h2 className="NewVision_heading__XlTVr">OUR VISION</h2>
-        <div className="NewVision_underline__VxrFq"></div>
+    <div className="">
+      <div className="">
+        <h2 className="">OUR VISION</h2>
+        <div className=""></div>
       </div>
-      <p className="NewVision_subHead__3qv_x">AI for Social Good</p>
-      <p className="NewVision_para__xm_Pw">
+      <p className="">AI for Social Good</p>
+      <p className="">
         Explainable AI (XAI) is an emerging subject of machine learning research
         that refers to strategies that try to provide transparency to typically
         opaque AI models and their predictions.
       </p>
-      <div className="NewVision_qualification__sections__qWk8Y">
+      <div className="">
         <div className="">
-          <div className="NewVision_qualification__data__s3l3X">
+          <div className="">
             <div>
-              <h3 className="NewVision_qualification__title__HUzhX">
+              <h3 className="">
                 Diversity &amp; Fairness
               </h3>
-              <span className="NewVision_qualification__subtitle__EQ6HD">
+              <span className="">
                 When training our AI models, we consider ethical and social
                 implications of algorithm-based decision making. Our solutions
                 use high-quality and fairly-represented data sets to eliminate
@@ -28,12 +28,12 @@ export const OurVision = () => {
               </span>
             </div>
             <div>
-              <span className="NewVision_qualification__rounder__zWnvF">
+              <span className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className="NewVision_iconCol__90VMl iconify iconify--ic"
+                  className=""
                   width="38"
                   height="32"
                   viewBox="0 0 24 24"
@@ -48,18 +48,18 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className="NewVision_qualification__line__aQioP"></span>
+              <span className=""></span>
             </div>
           </div>
-          <div className="NewVision_qualification__data__s3l3X">
+          <div className="">
             <div></div>
             <div>
-              <span className="NewVision_qualification__rounder__zWnvF">
+              <span className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className="NewVision_iconCol__90VMl iconify iconify--carbon"
+                  className=""
                   width="40"
                   height="32"
                   viewBox="0 0 32 32"
@@ -78,13 +78,13 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className="NewVision_qualification__line__aQioP"></span>
+              <span className=""></span>
             </div>
             <div>
-              <h3 className="NewVision_qualification__title__HUzhX">
+              <h3 className="">
                 Regulatory Compliance
               </h3>
-              <span className="NewVision_qualification__subtitle__EQ6HD">
+              <span className="">
                 Working with clients globally, LENS acknowledges applicable data
                 privacy regulations, such as the GDPR, HIPAA and others, in all
                 our solutions handling sensitive data. We also ensure our
@@ -93,12 +93,12 @@ export const OurVision = () => {
               </span>
             </div>
           </div>
-          <div className="NewVision_qualification__data__s3l3X">
+          <div className="">
             <div>
-              <h3 className="NewVision_qualification__title__HUzhX">
+              <h3 className="">
                 Code of Ethics
               </h3>
-              <span className="NewVision_qualification__subtitle__EQ6HD">
+              <span className="">
                 LENS believes in a just, non-violent world of equality and
                 fairness. We prize democratic values, civil liberties and open
                 and informed debate. When used to further these values,
@@ -107,12 +107,12 @@ export const OurVision = () => {
               </span>
             </div>
             <div>
-              <span className="NewVision_qualification__rounder__zWnvF">
+              <span className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className="NewVision_iconCol__90VMl iconify iconify--emojione-monotone"
+                  className=""
                   width="40"
                   height="32"
                   viewBox="0 0 64 64"
@@ -123,7 +123,7 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className="NewVision_qualification__line__aQioP"></span>
+              <span className=""></span>
             </div>
           </div>
         </div>
