@@ -10,7 +10,7 @@ export const NewClients = () => {
       <h1 className="text-center text-2xl font-semibold mb-16" style={{color:theme=="dark"?"white":"black"}}>
         We Work With Amazing Clients
       </h1>
-      <div className="lg:animate-slideAnimation lg:animate-duration-12s lg:animate-linear lg:animate-infinite flex flex-col lg:flex-row md:flex-row items-center justify-center gap-8">
+      <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-8 slide">
         <div>
           <img
             alt="gen"
