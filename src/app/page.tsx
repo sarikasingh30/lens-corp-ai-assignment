@@ -1,5 +1,6 @@
 import { About } from "@/components/About/About";
 import { Blogs } from "@/components/Blogs/Blogs";
+import { ChooseLens } from "@/components/ChooseLens/ChooseLens";
 import { Connect } from "@/components/Connect/Connect";
 import { Figures } from "@/components/Figures/Figures";
 import { MainSection } from "@/components/MainSection/MainSection";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
      <MainSection/>
      <About/>
+     <ChooseLens/>
      <OurVision/>
      <Blogs/>
      <NewClients/>

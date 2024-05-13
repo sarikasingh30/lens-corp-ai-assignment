@@ -1,5 +1,5 @@
 "use client";
-import "./Blogs.css";
+// import "./Blogs.css";
 import { MyContext } from "../../context/Store";
 import React, { useContext, useState } from "react";
 export const Blogs: React.FC = () => {

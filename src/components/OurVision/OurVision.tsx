@@ -5,7 +5,7 @@ export const OurVision = () => {
     const context = useContext(MyContext);
     const { theme } = context;
   return (
-    <div className=" grid place-items-center pb-24;">
+    <div className="grid place-items-center pb-24">
       <div className="">
         <h2 className="text-center text-xl font-bold m-0" 
           style={{ color: theme == "dark" ? "white" : "black" }}

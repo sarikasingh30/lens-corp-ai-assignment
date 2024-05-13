@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <script async src="node_modules/@material-tailwind/html/scripts/ripple.js"></script>
       <MyState>
-        <body style={{ backgroundColor: "#000000" }}>
+        <body className="font-poppins font-sans" style={{ backgroundColor: "#000000" }}>
           <Navbar />
           {children}
 

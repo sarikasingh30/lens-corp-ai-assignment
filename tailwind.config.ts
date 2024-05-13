@@ -32,9 +32,18 @@ export default {
             opacity: 1,
           },
         },
+        ImgAnime:{
+         "0%, 100%" :{
+            opacity: 0,
+        },
+       "50%":{
+            opacity: 1
+        }
+        }
       },
       animation:{
-        slideAnimation:"slideAnimation 12s linear infinite"
+        slideAnimation:"slideAnimation 12s linear infinite",
+        ImgAnime:"ImgAnime 5s ease-in-out infinite"
       },
     },
     plugins: [],
