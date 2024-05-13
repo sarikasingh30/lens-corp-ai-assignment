@@ -3,6 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .clip-path-custom {
+    /* -webkit-clip-path:polygon(0 22.5%, 100% 0, 100% 100%, 0 100%), */
+    clip-path:polygon(0 22.5%, 100% 0, 100% 100%, 0 100%) 
+  }
 
-@import '~@fortawesome/fontawesome-free/css/all.css';
-body{font-family: Poppins, sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue}
+}
+@import "~@fortawesome/fontawesome-free/css/all.css";
+body {
+  font-family: Poppins, sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue;
+}

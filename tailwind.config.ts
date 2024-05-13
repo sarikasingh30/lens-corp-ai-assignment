@@ -32,21 +32,29 @@ export default {
             opacity: 1,
           },
         },
-        ImgAnime:{
-         "0%, 100%" :{
+        ImgAnime: {
+          "0%, 100%": {
             opacity: 0,
+          },
+          "50%": {
+            opacity: 1,
+          },
         },
-       "50%":{
-            opacity: 1
-        }
-        }
+        meetAI: {
+          from: { "background-position": 0 % 0 } /* Start from left */,
+          to: { "background-position": -200 % 0 },
+        },
       },
-      animation:{
-        slideAnimation:"slideAnimation 12s linear infinite",
-        ImgAnime:"ImgAnime 5s ease-in-out infinite"
+      animation: {
+        slideAnimation: "slideAnimation 12s linear infinite",
+        ImgAnime: "ImgAnime 5s ease-in-out infinite",
+        meetAI: "meetAI 3s linear infinite",
       },
     },
     plugins: [],
+    corePlugins: {
+      preflight: false, // Disable preflight to prevent Tailwind from resetting clip-path
+    },
   },
 };
 

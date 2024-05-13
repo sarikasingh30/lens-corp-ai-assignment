@@ -180,7 +180,7 @@ export const ChooseLens = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center mt-[5rem] mr-[0]">
+      <div className="flex flex-wrap justify-center mt-[5rem]">
         <div style={{ position: "relative" }}>
           {theme == "dark" ? (
             ""
@@ -219,7 +219,7 @@ export const ChooseLens = () => {
           {theme == "dark" ? (
             ""
           ) : (
-            <div className="w-[250px] h-[200px] boreder rounded-[172px] bg-[#00b2fc] filter blur-[170px] absolute -top-[50px] -right-[90px]"></div>
+            <div className="w-[150px] h-[150px] boreder rounded-[172px] bg-[#00b2fc] filter blur-[170px] absolute -top-[50px] -right-[50px]"></div>
           )}
           <div
             className="z-30 h-[435px] w-[20rem] border rounded-[24px] m-[.5rem] flex flex-col justify-between items-start relative border-none"
@@ -291,7 +291,7 @@ export const ChooseLens = () => {
           {theme == "dark" ? (
             ""
           ) : (
-            <div className="w-[250px] h-[200px] boreder rounded-[172px] bg-[#fbc976] filter blur-[170px] absolute -right-[70px] -top-[50px]"></div>
+            <div className="w-[100px] h-[100px] boreder rounded-[172px] bg-[#fbc976] filter blur-[170px] absolute -right-[10px] -top-[50px]"></div>
           )}
           <div
             className="z-30 h-[435px] w-[20rem] border rounded-[24px] border-none m-[.5rem] flex flex-col justify-between items-start relative"
