@@ -1,5 +1,5 @@
 "use client";
-import "./NewClients.css"
+// import "./NewClients.css"
 import { MyContext } from "../../context/Store";
 import React, { useContext } from "react";
 export const NewClients = () => {
@@ -10,7 +10,7 @@ export const NewClients = () => {
       <h1 className="text-center text-2xl font-semibold mb-16" style={{color:theme=="dark"?"white":"black"}}>
         We Work With Amazing Clients
       </h1>
-      <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-8 slide">
+      <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-8 lg:animate-slideAnimation md:animate-slideAnimation">
         <div>
           <img
             alt="gen"

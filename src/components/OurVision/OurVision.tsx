@@ -1,26 +1,33 @@
-import React from "react";
-
+"use client";
+import { MyContext } from "../../context/Store";
+import React, { useContext } from "react";
 export const OurVision = () => {
+    const context = useContext(MyContext);
+    const { theme } = context;
   return (
-    <div className="">
+    <div className=" grid place-items-center pb-24;">
       <div className="">
-        <h2 className="">OUR VISION</h2>
-        <div className=""></div>
+        <h2 className="text-center text-xl font-bold m-0" 
+          style={{ color: theme == "dark" ? "white" : "black" }}
+          >OUR VISION</h2>
+        <div   className="h-1 w-20 m-auto rounded"
+          style={{ backgroundImage: "linear-gradient(#3c8ce7, #00eaff)" }}></div>
       </div>
-      <p className="">AI for Social Good</p>
-      <p className="">
+      <p className="w-80 text-center text-4xl font-medium my-4"
+        style={{ color: theme == "dark" ? "white" : "black" }}>AI for Social Good</p>
+      <p className="text-[#8a8a8a] text-center text-xl w-1/2 mb-[4rem]">
         Explainable AI (XAI) is an emerging subject of machine learning research
         that refers to strategies that try to provide transparency to typically
         opaque AI models and their predictions.
       </p>
-      <div className="">
+      <div className="grid grid-cols-[.5fr] justify-center">
         <div className="">
-          <div className="">
+          <div className="flex items-center justify-center p-[1rem]">
             <div>
-              <h3 className="">
+              <h3 className="hover:scale-105 text-2xl font-bold" style={{color:theme=="dark"?"white":"black"}}>
                 Diversity &amp; Fairness
               </h3>
-              <span className="">
+              <span className="hover:scale-105 inline-block text-base my-4 text-[#8a8a8a]">
                 When training our AI models, we consider ethical and social
                 implications of algorithm-based decision making. Our solutions
                 use high-quality and fairly-represented data sets to eliminate
@@ -28,12 +35,12 @@ export const OurVision = () => {
               </span>
             </div>
             <div>
-              <span className="">
+              <span className="inline-block border-4 border-[#8a8a8a] rounded-[50%] p-[4px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className=""
+                  style={{color:theme=="dark"?"white":"black"}}
                   width="38"
                   height="32"
                   viewBox="0 0 24 24"
@@ -48,18 +55,18 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className=""></span>
+              <span className="hidden lg:block"></span>
             </div>
           </div>
-          <div className="">
+          <div className="flex items-center justify-center p-[1rem]">
             <div></div>
             <div>
-              <span className="">
+              <span className="inline-block border-4 border-[#8a8a8a] rounded-[50%] p-[4px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className=""
+                  style={{color:theme=="dark"?"white":"black"}}
                   width="40"
                   height="32"
                   viewBox="0 0 32 32"
@@ -78,13 +85,13 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className=""></span>
+              <span className="hidden lg:block"></span>
             </div>
             <div>
-              <h3 className="">
+              <h3 className="hover:scale-105 text-2xl font-bold" style={{color:theme=="dark"?"white":"black"}}>
                 Regulatory Compliance
               </h3>
-              <span className="">
+              <span className="hover:scale-105 inline-block text-base my-4 text-[#8a8a8a]">
                 Working with clients globally, LENS acknowledges applicable data
                 privacy regulations, such as the GDPR, HIPAA and others, in all
                 our solutions handling sensitive data. We also ensure our
@@ -93,12 +100,12 @@ export const OurVision = () => {
               </span>
             </div>
           </div>
-          <div className="">
+          <div className="flex items-center justify-center p-[1rem]">
             <div>
-              <h3 className="">
+              <h3 className="hover:scale-105 text-2xl font-bold" style={{color:theme=="dark"?"white":"black"}}>
                 Code of Ethics
               </h3>
-              <span className="">
+              <span className="hover:scale-105 inline-block text-base my-4 text-[#8a8a8a]">
                 LENS believes in a just, non-violent world of equality and
                 fairness. We prize democratic values, civil liberties and open
                 and informed debate. When used to further these values,
@@ -107,12 +114,12 @@ export const OurVision = () => {
               </span>
             </div>
             <div>
-              <span className="">
+              <span className="inline-block border-4 border-[#8a8a8a] rounded-[50%] px-[4px] py-[4px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   role="img"
-                  className=""
+                  style={{color:theme=="dark"?"white":"black"}}
                   width="40"
                   height="32"
                   viewBox="0 0 64 64"
@@ -123,7 +130,7 @@ export const OurVision = () => {
                   ></path>
                 </svg>
               </span>
-              <span className=""></span>
+              <span className="block lg:w-[px] lg:h-3/4 lg:border-l-[2px] lg:border-dashed lg:border-[#8a8a8a] lg:transform lg:translate-x-[27.5px] lg:-translate-y-[3px]"></span>
             </div>
           </div>
         </div>
